@@ -12,7 +12,12 @@ input {
     border: 1px solid #ccc; /* Light gray border */
     border-radius: 5px; /* Rounded corners */
 }
-
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+button:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+}
 button {
     margin: 5px;
     padding: 5px 10px;
